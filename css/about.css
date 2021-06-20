@@ -1,0 +1,20 @@
+.welcomeBanner {
+    background-image: url('../assets/pexels-hitarth-jadhav-220357.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#about p {
+    text-align: left;
+}
+
+.profilePic {
+    height: 85%;
+    width: 85%;
+
+    background: var(--bs-dark);
+    border-radius: 50%;
+}

@@ -1,0 +1,23 @@
+body {
+    align-content: center;
+    background: var(--charcoal);
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-one);
+
+}
+
+p {
+    font-family: var(--font-two);
+}
+
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+
+

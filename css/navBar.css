@@ -1,0 +1,25 @@
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: var(--font-two);
+}
+
+.navbar-nav {
+    margin-left: auto; /*tells element to move elements to the right*/
+}
+
+nav a {
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+#initials {
+    padding: 5px;
+    border: 2px solid white;
+}

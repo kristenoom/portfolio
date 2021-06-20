@@ -1,0 +1,11 @@
+:root {
+    
+    --charcoal: #666;
+    --dkcharcoal: #212529;
+    
+
+    --font-one: 'Ubuntu', sans-serif;
+    --font-two: 'Open Sans', sans-serif;
+    --font-three: 'Lato', sans-serif;
+    --font-four: {font-family: 'Open Sans', sans-serif; font-weight: 400;}
+}
