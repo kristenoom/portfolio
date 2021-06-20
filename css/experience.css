@@ -1,15 +1,17 @@
+#experience {
+    margin-top: 20px;
+}
 
 .card-img-top {
     min-width: 160px;
     max-width: 250px;
 }
 
-.card-body{
+/* .card-body{
     color: var(--dkcharcoal);
-}
+} */
 
 .card-header {
-    color: var(--dkcharcoal);
     font-size: 14px;
     font-weight: bold;
 }
