@@ -29,37 +29,39 @@
 </head>
   
 <body style="text-align: center;">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <!--<a class="navbar-brand" href="#" id="initials">KO</a>-->
-            <a class="navbar-brand" href="#"><img src="./assets/KO_icon.png" alt="Kristen Oom" /></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experience">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <!--<a class="navbar-brand" href="#" id="initials">KO</a>-->
+                <a class="navbar-brand" href="#"><img src="./assets/KO_icon.png" alt="Kristen Oom" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </section>
     <section id="header">
         <div class="landing">
             <br>
@@ -84,13 +86,17 @@
             <div class="row justify-content-center"> 
                 <div class="col-md">
                     <p>Hello, my name is Kristen Oom, and I am currently a Web Developer. I continuously look to push myself and be a better developer.</p>
-                </div>
-                <div class="col-md">
                     <p>I graduated from Elgin Community College with an AAS in Computerized Graphic Design. After graduating, I went on to further my studies online with LinkedIn Learning (formerly Lynda.com) for years before enrolling at Eleven Fifty Academy.</p>
                 </div>
                 <div class="col-md">
-                    <p>I worked as an in-house designer at a manufacturer before working in multicommunications industry where I picked up HTML and CSS. Before enrolling at Eleven Fifty Academy I dabbled with JavaScript in my role at RR Donnelley.</p>
+                    <p>I worked as an in-house designer at a manufacturer before working in multicommunications industry where I picked up HTML and CSS. Before enrolling at Eleven Fifty Academy I dabbled with JavaScript in my role at <span>RR&nbsp;Donnelley</span>.</p>
                     <p>I am looking for a career that would allow me to combine my problem solving skills in a real world context to help people.</p>
+                </div>
+                <div class="col">
+                    <div id="resume">
+                        <p class="resume-para">Download/view my resume</p>
+                        <img src="./assets/cv.png" alt="Kristen Oom Resume">
+                    </div>
                 </div>
             </div>
         </div>
@@ -98,12 +104,96 @@
     <section id="portfolio">
         <div class="container">
             <div class="row">
-                <h1>Portfolio</h1>
+                <h1 id="portfolio_">Portfolio</h1>
             </div>
-        </div>
-        <div class='container'>
             <div class="row">
-                <div class="col">
+                <h3>Programming</h3>
+            </div>
+            <div class="row">
+                <div class="col col-md">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <img src='./assets/KO_icon.png' class="portfolio" alt="Static Layout Project">
+                        <div class="card-header">Static Layout</div>
+                        <!-- <div class="card-body">
+                          <h5 class="card-title">Dark card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                        </div>-->
+                    </div>
+                </div>
+                <div class="col col-md">
+                    <div class="card h-100 text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <img src='./assets/KO_icon.png' class="portfolio" alt="CSS Creature Project">
+                        <div class="card-header">CSS Creature</div>
+                        <!-- <div class="card-body">
+                          <h5 class="card-title">Dark card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                        </div>-->
+                    </div>
+                </div>
+                <div class="col col-md">
+                    <div class="card h-100 text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <img src='./assets/KO_icon.png' class="portfolio" alt="API Project">
+                        <div class="card-header">API Project 1</div>
+                        <!-- <div class="card-body">
+                          <h5 class="card-title">Dark card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                        </div>-->
+                    </div>
+                </div>
+                <div class="col col-md">
+                    <div class="card h-100 text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <img src='./assets/KO_icon.png' class="portfolio" alt="API Project">
+                        <div class="card-header">API Project 2</div>
+                        <!-- <div class="card-body">
+                          <h5 class="card-title">Dark card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h3>Design</h3>
+            </div>
+            <div class="row">
+                <div class="col col-md">
+                    <div class="card h-100 text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <img src='./assets/design-portfolio/SLOAN_A-36-A_part box.jpeg' class="portfolio" alt="Sloan A-36-A">
+                        <div class="card-header">Sloan Packaging Design</div>
+                        <!-- <div class="card-body">
+                          <h5 class="card-title">Dark card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                        </div>-->
+                    </div>
+                </div>
+                <div class="col col-md">
+                    <div class="card h-100 text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <img src='./assets/design-portfolio/SLOAN_Buy American Act_logo.jpg' class="portfolio" alt="Sloan Buy American Act">
+                        <div class="card-header">Buy American Act Logo</div>
+                        <!-- <div class="card-body">
+                          <h5 class="card-title">Dark card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                        </div>-->
+                    </div>
+                </div>
+                <div class="col col-md">
+                    <div class="card h-100 text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <img src='./assets/design-portfolio/WillowCreek_AXIS_AutumnGala-Tickets.jpg' class="portfolio" alt="Willow Creek Young Adults Event Tickets">
+                        <div class="card-header">Willow Creek Young Adults<br>Autumn Gala</div>
+                        <!-- <div class="card-body">
+                          <h5 class="card-title">Dark card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                        </div>-->
+                    </div>
+                </div>
+                <div class="col col-md">
+                    <div class="card h-100 text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <img src='./assets/KO_icon.png' class="portfolio" alt="RRD, RR Donnelley & Sons">
+                        <div class="card-header">API Project 2</div>
+                        <!-- <div class="card-body">
+                          <h5 class="card-title">Dark card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                        </div>-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,8 +203,6 @@
             <div class="row">
                 <h1>Skills</h1>
             </div>
-        </div>
-        <div class='container'>
             <div class="row">
                 <h3 class="align-middle">Languages</h3>
                 <div class="col-md">

@@ -13,6 +13,7 @@
 
 #about p {
     text-align: left;
+    font-size: 14px;
 }
 
 .profilePic {
@@ -23,4 +24,22 @@
 
     background: var(--bs-dark);
     border-radius: 50%;
+}
+
+#resume {
+    background-color: rgba(255,255,255,0.5);
+}
+
+#resume .resume-para {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+#resume img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 10px;
 }
