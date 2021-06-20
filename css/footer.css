@@ -10,9 +10,23 @@ footer p {
 }
 
 footer p a {
-    color: white;
+    color: var(--hyperlink);
 }
 
 footer p a:visited{
     color: palevioletred;
+}
+
+a#footer-github, a#footer-linkedin {
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+}
+
+p#privacy-link a {
+    color: var(--hyperlink);
+}
+
+p#privacy-link a:visited {
+    color: var(--hyperlink-visited);
 }

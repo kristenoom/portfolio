@@ -9,6 +9,10 @@
     font-family: var(--font-two);
 }
 
+.navbar-brand img {
+    width: 44px;
+}
+
 .navbar-nav {
     margin-left: auto; /*tells element to move elements to the right*/
 }

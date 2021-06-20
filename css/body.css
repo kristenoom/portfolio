@@ -14,10 +14,16 @@ p {
 }
 
 .section-padding {
+    margin-top: 275px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
+p a {
+    color: var(--hyperlink);
+}
 
-
+p a:visited {
+    color: var(--hyperlink-visited);
+}
 

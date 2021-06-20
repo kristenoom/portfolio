@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="./root/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./root/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./root/favicon-16x16.png">
+    <link rel="manifest" href="./root/site.webmanifest">
+    <link rel="mask-icon" href="./root/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
     <title>Kristen Oom Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
@@ -22,7 +31,8 @@
 <body style="text-align: center;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#" id="initials">KO</a>
+            <!--<a class="navbar-brand" href="#" id="initials">KO</a>-->
+            <a class="navbar-brand" href="#"><img src="./assets/KO_icon.png" alt="Kristen Oom" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,25 +61,25 @@
         </div>
     </nav>
     <section id="header">
-        <div class="container">
-            <div class="row">
-                <div class="welcomeBanner">
-                    <h2>Kristen Oom</h2>
-                    <h5>Web Developer +<br>Graphic Designer</h5>
-                </div>
+            <div class="cropped">
+                <img class='landing' src="./assets/pexels-hitarth-jadhav-220357.jpg">
             </div>
-        </div>
-
+            <div class="landing-text">
+                <h1>Kristen Oom</h1>
+                <h3>Web Developer +<br>Graphic Designer</h3>
+            </div>
     </section>
     <section id="about" class="section-padding">
         <div class="container">
             <div class="row">
                 <h1>About Me</h1>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md">
-                    <img class="profilePic" src="./assets/profilePic.png" alt="Kristen Oom profile pic" />  
-                </div> 
+            <div class="row">
+                <div class='col'>
+                    <img class="profilePic" src="./assets/profilePic.png" alt="Kristen Oom profile pic" />
+                </div>
+            </div>
+            <div class="row justify-content-center"> 
                 <div class="col-md">
                     <p>Hello, my name is Kristen Oom, and I am currently a Web Developer. I continuously look to push myself and be a better developer.</p>
                 </div>
@@ -83,73 +93,174 @@
             </div>
         </div>
     </section>  
-    <section id="portfolio" class="section-padding>
+    <section id="portfolio">
         <div class="container">
-            <h1>Portfolio</h1>
+            <div class="row">
+                <h1>Portfolio</h1>
+            </div>
+        </div>
+        <div class='container'>
+            <div class="row">
+                <div class="col">
+                </div>
+            </div>
         </div>
     </section>
-    <section id="skills" class="section-padding>
+    <section id="skills" class="section-padding">
         <div class="container">
-            <h1>Skills</h1>
-            <i class="devicon-html5-plain"></i>
-            <i class="devicon-javascript-plain"></i>
-            <i class="devicon-illustrator-plain"></i>
-            <i class="devicon-photoshop-plain"></i>
-            <i class="devicon-slack-plain"></i>
-            <i class="devicon-trello-plain"></i>
+            <div class="row">
+                <h1>Skills</h1>
+            </div>
+        </div>
+        <div class='container'>
+            <div class="row">
+                <h3 class="align-middle">Languages</h3>
+                <div class="col-md">
+                    <img class='skills-icon' src='./assets/skills/round-icons/html-5.png' alt='HTML5' />
+                </div>
+                <div class="col col-md">
+                    <img class='skills-icon' src='./assets/skills/round-icons/css-3.png' alt='CSS3' />
+                </div>
+                <div class="col col-md">
+                    <img class='skills-icon' src='./assets/skills/round-icons/js-6.png' alt='JavaScript' />
+                    <!--
+                        <i class="devicon-html5-plain-wordmark"></i>
+                        <i class='devicon-css3-plain-wordmark'></i>
+                        <i class="devicon-javascript-plain"></i>
+                        <i class='devicon-github-original'></i>
+                        <i class='devicon-devicon-plain-wordmark'></i>
+                -->
+                </div>
+            </div>
+            <div class="row">
+                <h3 class="align-middle">Design Tools</h3>
+                <div class="col col-md">
+                    <img class="skills-icon" src='./assets/skills/round-icons/acrobat.png' alt="Adobe Acrobat application" />
+                </div>
+                <div class="col col-md">
+                    <img class="skills-icon" src='./assets/skills/round-icons/creative-cloud.png' alt="Creative Cloud application" />
+                </div>
+                <div class="col col-md">
+                    <img class="skills-icon" src='./assets/skills/round-icons/dreamweaver.png' alt="Dreamweaver application" />
+                </div>
+                <div class="col col-md">
+                    <img class="skills-icon" src='./assets/skills/round-icons/illustrator.png' alt="Illustrator application" />
+                </div>
+                <div class="col col-md">
+                    <img class="skills-icon" src='./assets/skills/round-icons/indesign.png' alt="InDesign application" />
+                </div>
+                <div class="col col-md">
+                    <img class="skills-icon" src='./assets/skills/round-icons/photoshop.png' alt="Photoshop application" />
+                </div>
+            </div>
+            <div class="row">
+                <h3 class="align-middle">Applications/Services</h3>
+                <div class="col col-md">
+                    <img class='skills-icon' src='./assets/skills/round-icons/github.png' alt='GitHub' />
+                </div>
+                <div class="col col-md">
+                    <img class='skills-icon' src='./assets/skills/round-icons/vs-code.png' alt='Visual Studio Code' />
+                </div>
+                <div class="col col-md">
+                    <img class='skills-icon' src='./assets/skills/round-icons/google-drive.png' alt='Google' />
+                </div>
+                <div class="col col-md">
+                    <img class='skills-icon' src='./assets/skills/round-icons/slack.png' alt='Slack' />
+                </div>
+                <div class="col col-md">
+                    <img class='skills-icon' src='./assets/skills/round-icons/trello.png' alt='Trello' />
+                </div>
+                    <!--
+                        <i class='devicon-vscode-plain'></i>
+                        <i class="devicon-slack-plain"></i>
+                        <i class="devicon-trello-plain"></i>
+                    -->
+                </div>
+            </div>
         </div>
     </section>
-    <section id="experience" class="section-padding">
+    <section id="experience">
         <div class="container">
             <h1>My Experience</h1>
             <div class="row">
-                <div class="col-md-12">
-                    <div class="main-timeline">
-                        <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-globe"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Web Designer</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Web Developer</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Web Designer</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Web Developer</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
-                                </p>
-                            </div>
-                        </a>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">Eleven Fifty Academy</div>
+                        <img src='./assets/experience/logo-elevenFifty1.png' class="card-img-top" alt="Eleven Fifty Academy">
+                        <div class="card-body">
+                            <p class='card-title'>Web Development Certification</p>
+                            <p class='card-text text-secondary'>2021</p>
+                            <p class="card-text">26-week immersive learning program for Web Development taught with industry-guided curriculum, real-world project-based learning, and 500+ hours of logged coding time and training.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header"><span>RR Donnelly & Sons</span></div>
+                        <img src='./assets/experience/logo-rrdonnelley.png' class="card-img-top" alt="RRD, RR Donnelley & Sons">
+                        <div class="card-body">
+                            <p class='card-title'>Digital Project Manager</p>
+                            <p class='card-text text-secondary'>MAR 2017 - JUN 2020</p>
+                            <p class="card-text">RRD serves large, fragmented markets experiencing tremendous changes in the ways in which organizations communicate with their target audiences utilizing both print and digital channels.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">Carqueville Print, An <span>RR Donnelley</span> Company</div>
+                        <img src='./assets/experience/logo-carqueville.png' class="card-img-top" alt="Carqueville, RRD">
+                        <div class="card-body">
+                            <p class='card-title'>Digital Project Manager</p>
+                            <p class='card-text text-secondary'>OCT 2012 - MAR 2017</p>
+                            <p class="card-text">RRD serves large, fragmented markets experiencing tremendous changes in the ways in which organizations communicate with their target audiences utilizing both print and digital channels.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">Sloan</div>
+                        <img src='./assets/experience/logo-sloan.png' class="card-img-top" alt="Sloan Valve Company, plumbing manufacturer">
+                        <div class="card-body">  
+                            <p class='card-title'>Technical Illustrator</p>
+                            <p class='card-text text-secondary'>JAN 2012 - OCT 2012</p>
+                            <p class="card-text">Sloan has led the industry in water efficiency with products that are built to perform and guaranteed to last.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">Sloan</div>
+                        <img src='./assets/experience/logo-sloan.png' class="card-img-top" alt="Sloan Valve Company, plumbing manufacturer">
+                        <div class="card-body">
+                            <p class='card-title'>Media Services Coordinator</p>
+                            <p class='card-text text-secondary'>JUL 2009 - JAN 2012</p>
+                            <p class="card-text">Sloan has led the industry in water efficiency with products that are built to perform and guaranteed to last.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">Elgin Community College<br></div>
+                        <img src='./assets/experience/logo-elgincc.png' class="card-img-top" alt="Elgin Community College, ECC">
+                        <div class="card-body">
+                            <p class='card-title'>Associate's of Applied Science, Computerized Graphic Design</p>
+                            <p class='card-text text-secondary'>2010 GRAD</p>
+                            <p class="card-text">Two-year immersive program with hands-on learning in small classes from exceptional, industry-seasoned faculty in up-to-date facilities. Practical experiences through Spartan Design Club with work among the community and prospective employers.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Contact Me -->
-    <section id="contact" class="section-padding">
+    <section id="contact">
         <div class="container">
-            <h1>Contact Me</h1>
+            <div class="row">
+                <h1>Contact Me</h1>
+            </div>
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-6">
@@ -171,33 +282,24 @@
             <div class="row">                        
                 <div class="col-5"></div>
                 <div class="col-1">
-                    <a href="https://github.com/kristenoom" target="_blank">
+                    <a href="https://github.com/kristenoom" target="_blank" id='footer-github'>
                         <i class="devicon-github-original"></i>
                     </a>
                 </div>
                 <div class="col-1">
-                    <a href="https://linkedin.com/in/kristenoom" target="_blank">
+                    <a href="https://linkedin.com/in/kristenoom" target="_blank" id='footer-linkedin'>
                         <i class="devicon-linkedin-plain"></i>
                     </a>
                 </div>
                 <div class="col-5"></div>
             </div>
-            <!-- <div class="hexagon" id="hexagon">
-                <a href="https://github.com/kristenoom" target="_blank">
-                    <i class="devicon-github-original"></i>
-                </a>
-            </div>
-            <div class="hexagon" id="hexagon">
-                <a href="https://linkedin.com/in/kristenoom" target="_blank">
-                    <i class="devicon-linkedin-plain"></i>
-                </a>
-            </div> -->
+            
         </div>
     </section>
     <footer>
         <p>&copy; 2021 Kristen Oom. All Rights Reserved.</p>
         <p>Built by Kristen Oom.</p>
-        <p><a href="privacy-policy.html">Privacy Policy</a></p>
+        <p id='privacy-link'><a href="privacy-policy.html">Privacy Policy</a></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>

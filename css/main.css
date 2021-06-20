@@ -3,9 +3,12 @@
 @import "variables.css";
 @import "navBar.css";
 @import "body.css";
+@import 'landing.css';
 @import "about.css";
+@import 'portfolio.css';
+@import 'skills.css';
 @import "experience.css";
 @import "contactMe.css";
 @import "footer.css";
-
+@import 'privacy.css';
 
