@@ -4,27 +4,36 @@
 }
 
 .landing {
+    background-image: url('../assets/pexels-hitarth-jadhav-220357.jpg');
+    background-repeat: no-repeat;
     max-width: 100%;
-    /*max-height: 1200px;*/
-    z-index:auto;
-    margin: 0px;
-    margin-top: -5px;
+    height: 1100px;
+    max-height: 1275px;
+    margin-top: -25px;
+
 }
 
-.landing-text {
-    margin-top: -750px;
-    background: rgba(102, 102, 102, 0.8);
-    padding: 10px;
-}
+/* .landing-text {
+    background-color: rgba(120, 120, 120, 0.7);
+    vertical-align: middle;
+    padding: 25px;
+} */
 
-.landing-text h1 {
+.landing h1 {
     font-family: var(--font-one);
-    font-size: 69px;
+    font-size: 88px;
+    font-weight: 500;
     text-align: center;
+    margin-top: 225px;
+    -webkit-text-stroke: 3px var(--dkcharcoal);
+    -webkit-text-fill-color: white;
 }
 
-.landing-text h3 {
-    font-family: var(--font-two);
-    font-size: 40px;
+.landing h3 {
+    font-family: var(--font-one);
+    font-size: 60px;
+    font-weight: 700;
     text-align: center;
+    -webkit-text-stroke: 3px var(--dkcharcoal);
+    -webkit-text-fill-color: white;
 }
