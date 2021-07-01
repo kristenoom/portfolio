@@ -1,9 +1,13 @@
 .navbar {
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
+    position: sticky;
+    top: 0;
+    /* width: 100%; */
+    /* z-index: 1; */
 }
+
+#content {
+    background-color: var(--charcoal);
+  }
 
 .navbar-brand {
     font-family: var(--font-two);

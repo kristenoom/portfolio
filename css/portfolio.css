@@ -7,3 +7,8 @@
     min-width: 250px;
     max-width: 290px;
 }
+
+#portfolioProgramming,
+#portfolioDesign {
+    padding-top: 15px;
+}

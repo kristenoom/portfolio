@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&family=Red+Hat+Text:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
 
@@ -28,10 +30,9 @@
 
 </head>
   
-<body style="text-align: center;">
-    <section>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
+<body style="text-align: center;">    
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+            <div class="container">
                 <!--<a class="navbar-brand" href="#" id="initials">KO</a>-->
                 <a class="navbar-brand" href="#"><img src="./assets/KO_icon.png" alt="Kristen Oom" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,19 +62,21 @@
                 </div>
             </div>
         </nav>
-    </section>
-    <section id="header">
+    
+    <section id="land">
         <div class="landing">
             <br>
             <h1>Kristen Oom</h1>
             <h3>Web Developer +<br>Graphic Designer</h3>
         </div>
+        
         <!-- <div class="cropped">
                 <img class='landing' src="./assets/pexels-hitarth-jadhav-220357.jpg">
             </div> -->
             
     </section>
-    <section id="about">
+    <hr id='about' />
+    <section>
         <div class="container">
             <div class="row">
                 <h1>About Me</h1>
@@ -100,18 +103,22 @@
                 </div>
             </div>
         </div>
-    </section>  
-    <section id="portfolio">
+    </section>
+    <br>  
+    <section id="portfolio" style="max-height: 100%; max-width: 100%">
+        <br>
+        <br>
+        <br>
         <div class="container">
             <div class="row">
-                <h1 id="portfolio_">Portfolio</h1>
+                <h1>Portfolio</h1>
             </div>
             <div class="row">
-                <h3>Programming</h3>
+                <h3 id='portfolioProgramming'>Programming</h3>
             </div>
             <div class="row">
                 <div class="col col-md">
-                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <div class="card h-100 text-white bg-dark mb-3" style="max-width: 18rem;">
                         <img src='./assets/KO_icon.png' class="portfolio" alt="Static Layout Project">
                         <div class="card-header">Static Layout</div>
                         <!-- <div class="card-body">
@@ -132,7 +139,7 @@
                 </div>
                 <div class="col col-md">
                     <div class="card h-100 text-white bg-dark mb-3" style="max-width: 18rem;">
-                        <img src='./assets/KO_icon.png' class="portfolio" alt="API Project">
+                        <img src='./assets/rick-and-morty-api.png' class="portfolio" alt="API Project">
                         <div class="card-header">API Project 1</div>
                         <!-- <div class="card-body">
                           <h5 class="card-title">Dark card title</h5>
@@ -152,7 +159,7 @@
                 </div>
             </div>
             <div class="row">
-                <h3>Design</h3>
+                <h3 id='portfolioDesign'>Design</h3>
             </div>
             <div class="row">
                 <div class="col col-md">
@@ -198,13 +205,21 @@
             </div>
         </div>
     </section>
-    <section id="skills">
+    <hr id='skills' />
+    <!--SKILLS SECTION-->
+    <section class='skillSection h-100'>
         <div class="container">
             <div class="row">
-                <h1>Skills</h1>
+                <div class="col span">
+                    <h1>Skills</h1>
+                </div>
             </div>
             <div class="row">
-                <h3 class="align-middle">Languages</h3>
+                <div class="col">
+                    <h3>Languages</h3>
+                </div>
+            <!-- </div>
+            <div class="row"> -->
                 <div class="col-md">
                     <img class='skills-icon' src='./assets/skills/round-icons/html-5.png' alt='HTML5' />
                 </div>
@@ -214,16 +229,18 @@
                 <div class="col col-md">
                     <img class='skills-icon' src='./assets/skills/round-icons/js-6.png' alt='JavaScript' />
                     <!--
-                        <i class="devicon-html5-plain-wordmark"></i>
-                        <i class='devicon-css3-plain-wordmark'></i>
-                        <i class="devicon-javascript-plain"></i>
-                        <i class='devicon-github-original'></i>
+                        <i class="devicon-html5-plain-wordmark"></i>    <i class='devicon-css3-plain-wordmark'></i>
+                        <i class="devicon-javascript-plain"></i>    <i class='devicon-github-original'></i>
                         <i class='devicon-devicon-plain-wordmark'></i>
                 -->
                 </div>
             </div>
             <div class="row">
-                <h3 class="align-middle">Design Tools</h3>
+                <div class="col">
+                    <h3>Design Tools</h3>
+                </div>
+            <!-- </div>
+            <div class="row"> -->
                 <div class="col col-md">
                     <img class="skills-icon" src='./assets/skills/round-icons/acrobat.png' alt="Adobe Acrobat application" />
                 </div>
@@ -244,7 +261,11 @@
                 </div>
             </div>
             <div class="row">
-                <h3 class="align-middle">Applications/Services</h3>
+                <div class="col">
+                    <h3>Applications/Services</h3>
+                </div>
+            <!-- </div>
+            <div class="row"> -->
                 <div class="col col-md">
                     <img class='skills-icon' src='./assets/skills/round-icons/github.png' alt='GitHub' />
                 </div>
@@ -260,6 +281,9 @@
                 <div class="col col-md">
                     <img class='skills-icon' src='./assets/skills/round-icons/trello.png' alt='Trello' />
                 </div>
+                <div class="col col-md">
+                    <img class='skills-icon' src='./assets/skills/round-icons/pageflex.png' alt='Pageflex' />
+                </div>
                     <!--
                         <i class='devicon-vscode-plain'></i>
                         <i class="devicon-slack-plain"></i>
@@ -269,6 +293,9 @@
         </div>
     </section>
     <section id="experience">
+        <br>
+        <br>
+        <br>
         <div class="container">
             <h1>My Experience</h1>
             <div class="row">
@@ -335,9 +362,9 @@
                         <div class="card-header">Elgin Community College<br></div>
                         <img src='./assets/experience/logo-elgincc.png' class="card-img-top" alt="Elgin Community College, ECC">
                         <div class="card-body">
-                            <p class='card-title'>Associate's of Applied Science, Computerized Graphic Design</p>
+                            <p class='card-title'>Associate's of Applied Science, <span>Computerized&nbsp;Graphic&nbsp;Design</span></p>
                             <p class='card-text text-secondary'>2010 GRAD</p>
-                            <p class="card-text">Two-year immersive program with hands-on learning in small classes from exceptional, industry-seasoned faculty in up-to-date facilities. Practical experiences through Spartan Design Club with work among the community and prospective employers.</p>
+                            <p class='card-text'>Two-year immersive program with hands-on learning in small classes from exceptional, industry-seasoned faculty in up-to-date facilities. Practical experiences through Spartan Design Club with work among the community and prospective employers.</p>
                         </div>
                     </div>
                 </div>
@@ -353,34 +380,37 @@
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-6">
-                    <div class="input-group mb-3">
-                        <label class="input-group-text" id="inputGroup-sizing-default">Name&nbsp;</label>
-                        <input type="text" name="name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                      </div> 
-                      <div class="input-group mb-3">
-                        <label class="input-group-text" id="inputGroup-sizing-default">Email&nbsp;</label>
-                        <input type="email" name="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                      </div>
-                      <div class="input-group mb-3">
-                        <label class="input-group-text" id="inputGroup-sizing-default">Message</label>
-                        <input type="text" name="message" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                      </div>       
+                    <form>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" id="inputGroup-sizing-default">Name&nbsp;</label>
+                            <input type="text" name="name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        </div> 
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" id="inputGroup-sizing-default">Email&nbsp;</label>
+                            <input type="email" name="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" id="inputGroup-sizing-default">Message</label>
+                            <input type="text" name="message" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                        <button type='button' class='submit' id='submitBtn'>Submit</button>
+                      </form>
                 </div>
                 <div class="col-3"></div>
             </div>
             <div class="row">                        
-                <div class="col-5"></div>
-                <div class="col-1">
+                <div class="col-4"></div>
+                <div class="col-2">
                     <a href="https://github.com/kristenoom" target="_blank" id='footer-github'>
                         <i class="devicon-github-original"></i>
                     </a>
                 </div>
-                <div class="col-1">
+                <div class="col-2">
                     <a href="https://linkedin.com/in/kristenoom" target="_blank" id='footer-linkedin'>
                         <i class="devicon-linkedin-plain"></i>
                     </a>
                 </div>
-                <div class="col-5"></div>
+                <div class="col-4"></div>
             </div>
             
         </div>
@@ -392,5 +422,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

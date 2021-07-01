@@ -8,6 +8,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-one);
     font-weight: 300;
 }
+h1 {
+    color: var(--hyperlink);
+}
 
 p {
     font-family: var(--font-two);
@@ -26,4 +29,3 @@ p a {
 p a:visited {
     color: var(--hyperlink-visited);
 }
-
