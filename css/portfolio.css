@@ -1,14 +1,18 @@
 #portfolio {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .portfolio {
-    width: 100%;
-    min-width: 250px;
-    max-width: 290px;
+  width: 100%;
+  min-width: 250px;
+  max-width: 290px;
+}
+.portfolio .card img {
+  max-width: 200px;
+  height: auto;
 }
 
 #portfolioProgramming,
 #portfolioDesign {
-    padding-top: 15px;
+  padding-top: 15px;
 }

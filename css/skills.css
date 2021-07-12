@@ -1,13 +1,13 @@
 hr#skills {
-    height: 45px;
-    background-color: transparent;
+  height: 45px;
+  background-color: transparent;
 }
 
 .skillSection {
-    text-decoration: none;
-    font-size: 66px;
-    color: white;
-    margin-top: 25px;
+  text-decoration: none;
+  font-size: 66px;
+  color: white;
+  margin-top: 25px;
 }
 
 /* #skills h3 {
@@ -18,10 +18,18 @@ hr#skills {
 } */
 
 .skillSection i {
-    margin: 5px;
+  margin: 5px;
 }
 
 .skillSection img {
-    margin: 5px;
-    width: 66px;
+  margin-right: 5px;
+  /* width: 66px; */
+}
+
+.skillSection h3 {
+  text-align: center;
+}
+
+.skills-icon {
+  width: 150px;
 }
