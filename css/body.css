@@ -1,31 +1,36 @@
 body {
-    align-content: center;
-    background: var(--charcoal);
-    color: white;
+  align-content: center;
+  background: var(--charcoal);
+  color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-one);
-    font-weight: 300;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-one);
+  font-weight: 300;
 }
 h1 {
-    color: var(--hyperlink);
+  color: var(--header);
 }
 
 p {
-    font-family: var(--font-two);
+  font-family: var(--font-two);
 }
 
 .section-padding {
-    margin-top: 275px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+  margin-top: 275px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 p a {
-    color: var(--hyperlink);
+  color: var(--hyperlink);
 }
 
 p a:visited {
-    color: var(--hyperlink-visited);
+  color: var(--hyperlink-visited);
 }

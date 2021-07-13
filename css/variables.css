@@ -1,12 +1,15 @@
 :root {
-    
-    --charcoal: #666;
-    --dkcharcoal: #212529;
-    --hyperlink: #2fcea5;
-    --hyperlink-visited: #f9850f;
-    
-    --font-one: 'Red Hat Display', 'Ubuntu', sans-serif;
-    --font-two: 'Open Sans', sans-serif;
-    --font-three: 'Red Hat Text', 'Lato', sans-serif;
-    --font-four: {font-family: 'Open Sans', sans-serif; font-weight: 400;}
+  --charcoal: #666;
+  --dkcharcoal: #212529;
+  --hyperlink: #2fcea5;
+  --hyperlink-visited: #f9850f;
+  --header: cyan;
+
+  --font-one: "Red Hat Display", "Ubuntu", sans-serif;
+  --font-two: "Open Sans", sans-serif;
+  --font-three: "Red Hat Text", "Lato", sans-serif;
+  --font-four: {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+  }
 }
