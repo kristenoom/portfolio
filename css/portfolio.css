@@ -2,6 +2,10 @@
   margin-top: 25px;
 }
 
+#portfolio a {
+  text-decoration: none;
+}
+
 .portfolio {
   width: 100%;
   min-width: 250px;
