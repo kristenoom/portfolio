@@ -16,3 +16,29 @@
 #portfolioDesign {
   padding-top: 15px;
 }
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  color: black;
+}
+
+.modal-header h5 {
+  padding: 0;
+}
+
+.modal-body {
+  text-decoration: none;
+}
+
+.modal-body p {
+  font-family: var(--font-one);
+  font-size: 15px;
+}
+
+.modal-body p span {
+  color: var(--charcoal);
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
